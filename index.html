@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <title>drink101</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <div class="root">
+        
+        <div class="header">
+            <div class="header_left">
+                <h1>101</h1>
+                <p>drinks</p>
+            </div>
+            <div class="header_right">
+                <h3 id="title_of_drink">Choice your drink</h3>
+            </div>
+        </div>
+
+        
+        <div class="wrapper">
+            <div class="links active"></div>
+            <div class="product"></div>
+            <div class="check">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>name</th>
+                            <th>amounts</th>
+                            <th>price (sum)</th>
+                        </tr>
+                    </thead>
+                </table>
+                <h4>Price (15% of delivery):  <span>0</span> sum</h4>
+                <div class="check_btns">
+                    <button class="check_backBtn">back</button>
+                    <button class="check_okBtn">ok</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="zakaz_btn active">
+            <button class="yellowBtn" id="zakazBtn">order</button>
+        </div>
+
+    </div>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/baza.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
